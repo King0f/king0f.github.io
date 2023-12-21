@@ -1,0 +1,279 @@
+.b_ofertas {
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/img/fondo.jfif');
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir completamente el área */
+}
+
+.jumbotron {
+    background: url('/img/descarga.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 94%;
+    width: 100%;
+    color: #fff; /* Color del texto */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description {
+    padding: 20px;
+}
+
+/* Estilo para el título "Nuestra Historia" */
+.history-title {
+    font-size: 2em; /* Tamaño del texto más grande */
+    font-weight: 700; /* Negrita */
+    margin-bottom: 20px;
+}
+
+/* Ajustes adicionales para centrar el contenido */
+.content-container {
+    text-align: center;
+    
+}
+
+.f_ofertas {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.b_pedido {
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/img/fondo.jfif');
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir completamente el área */
+    color: #fff;
+}
+.container2 {
+    margin-top: 50px;
+}
+.product2 {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.product2 img {
+    width: 20%;
+    height: auto; /* Hace que la altura sea proporcional al ancho */
+    border-radius: 8px;
+}
+.f_pedido {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 9%;
+}
+
+.f_pedido2 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 32%;
+}
+
+.b_login {
+    height: 100%;
+    margin: 0;
+}
+
+.f_login{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+
+}
+
+.login-dark {
+    height:1000px;
+    background-image: url('/img/fondo.jfif');
+    background-size:cover;
+    position:relative;
+  }
+  
+  .login-dark form {
+    max-width:320px;
+    width:90%;
+    background-color:#1e2833;
+    padding:40px;
+    border-radius:4px;
+    transform:translate(-50%, -50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:#fff;
+    box-shadow:3px 3px 4px rgba(0,0,0,0.2);
+  }
+  
+  .login-dark .illustration {
+    text-align:center;
+    padding:15px 0 20px;
+    font-size:100px;
+    color:#2980ef;
+  }
+  
+  .login-dark form .form-control {
+    background:none;
+    border:none;
+    border-bottom:1px solid #434a52;
+    border-radius:0;
+    box-shadow:none;
+    outline:none;
+    color:inherit;
+  }
+  
+  .login-dark form .btn-primary {
+    background:#214a80;
+    border:none;
+    border-radius:4px;
+    padding:11px;
+    box-shadow:none;
+    margin-top:26px;
+    text-shadow:none;
+    outline:none;
+  }
+  
+  .login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
+    background:#214a80;
+    outline:none;
+  }
+  
+  .login-dark form .forgot {
+    display:block;
+    text-align:center;
+    font-size:12px;
+    color:#6f7a85;
+    opacity:0.9;
+    text-decoration:none;
+  }
+  
+  .login-dark form .forgot:hover, .login-dark form .forgot:active {
+    opacity:1;
+    text-decoration:none;
+  }
+  
+  .login-dark form .btn-primary:active {
+    transform:translateY(1px);
+  }
+
+  .b_carta {
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/img/fondo.jfif');
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir completamente el área */
+}
+
+/* Ajustes adicionales para centrar el contenido */
+.content-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Estilo para las categorías */
+.category-title {
+    font-size: 2em; /* Tamaño del texto más grande */
+    font-weight: 700; /* Negrita */
+    margin-bottom: 20px;
+}
+
+/* Estilo para cada producto */
+.product {
+    margin-bottom: 30px;
+}
+
+/* Estilo para el título del producto */
+.product-title {
+    margin-top: 7%;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+/* Estilo para el precio del producto */
+.product-price {
+    font-size: 1.2em;
+    color: #28a745; /* Color verde para resaltar el precio */
+}
+.f_carta{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 3%;
+}
+  
+.b_index{
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/img/fondo.jfif');
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir completamente el área */
+    color: #fff;
+}
+
+.titulofoto{
+    background-color: rgba(0,0,0,0.2);
+    width: 40%;
+}
+.jumbotron {
+    background: url('/img/descarga.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 94vh;
+    width: 100%;
+    color: #fff; /* Color del texto */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description {
+    padding: 20px;
+}
+
+/* Estilo para el título "Nuestra Historia" */
+.history-title {
+    font-size: 2em; /* Tamaño del texto más grande */
+    font-weight: 700; /* Negrita */
+    margin-bottom: 20px;
+}
+
+/* Ajustes adicionales para centrar el contenido */
+.content-container {
+    text-align: center;
+    
+}
+
+.f_index{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 3%;
+}
+
+.video-container {
+    position: relative;
+    width: 50%;
+    padding-bottom: 30%; /* Proporción 16:9 (ajusta según la relación de aspecto del video) */
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

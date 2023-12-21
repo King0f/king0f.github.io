@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paquito's Restaurant</title>
+    <!-- Agrega la referencia a los estilos de Bootstrap -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/scss/index.css">
+</head>
+<body class="b_index">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Paquito's Restaurant</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="carta.html">Carta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mi_pedido.html">Mi Pedido</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ofertas.html">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iniciar_sesion.html">Iniciar Sesión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registro.html">Registrarse</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="jumbotron">
+    <center><h1 class="display-4 text-center titulofoto"><b>Paquito's Restaurant</b></h1></center>
+    <center><p class="lead text-center titulofoto"><b>Desde 1988</b></p></center>
+    <center><a href="carta.html" class="btn btn-secondary btn-lg active" role="button">Realizar un pedido</a></center>
+</div>
+
+<div class="content-container">
+
+    <!-- Título "Nuestra Historia" -->
+    <h2 class="history-title">Nuestra Historia</h2>
+
+    <!-- Descripción del restaurante -->
+    <div class="description">
+        <p>Paquito's Restaurant es un lugar acogedor donde puedes disfrutar de deliciosos platos preparados con ingredientes frescos y de alta calidad. Nuestra pasión por la buena comida y el servicio excepcional ha sido una tradición desde 1988. ¡Te invitamos a vivir una experiencia culinaria única en nuestro restaurante!</p>
+    </div>
+
+    <!-- Video -->
+    <center>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/32T8Oja5Yn4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+    </div></center>
+    
+
+</div>
+
+<center><h2 class="history-title">Descubre nuestras mejores ofertas</h2></center>
+<div id="carouselOfertas" class="carousel slide" data-ride="carousel" style="max-width: 800px; margin: 0 auto;">
+    <div class="carousel-inner">
+        <!-- Producto 1 -->
+        <div class="carousel-item active">
+            <img src="/img/ensalada1.jpg" class="d-block w-100" alt="Oferta 1">
+            <div class="carousel-caption d-none d-md-block">
+                <center><h5 class="titulofoto">Ensalada Mixta</h5></center>
+                <center><p class="titulofoto">Precio: $5.99</p></center>
+            </div>
+        </div>
+        <!-- Producto 2 -->
+        <div class="carousel-item">
+            <img src="/img/croquetas.webp" class="d-block w-100" alt="Oferta 2">
+            <div class="carousel-caption d-none d-md-block">
+                <center><h5 class="titulofoto">Croquetas de jamón ibérico</h5></center>
+                <center><p class="titulofoto">Precio: $9.99</p></center>
+            </div>
+        </div>
+        <!-- Producto 3 -->
+        <div class="carousel-item">
+            <img src="/img/paella.jpg" class="d-block w-100" alt="Oferta 3">
+            <div class="carousel-caption d-none d-md-block">
+                <center><h5 class="titulofoto">Paella Valenciana</h5></center>
+                <center><p class="titulofoto">Precio: $20 por comensal</p></center>
+            </div>
+        </div>
+    </div>
+    <!-- Controles del carrusel -->
+    <a class="carousel-control-prev" href="#carouselOfertas" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselOfertas" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+    </a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<footer class="f_index">
+    <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Paquito's Restaurant</span> by <span property="cc:attributionName">Nicolas Gomez Mulero</span> is licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1"></a></p>
+  </footer>
+</body>
+</html>

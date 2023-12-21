@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paquito's Restaurant</title>
+    <!-- Agrega la referencia a los estilos de Bootstrap -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/scss/index.css">
+</head>
+<body class="b_pedido">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Paquito's Restaurant</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="carta.html">Carta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mi_pedido.html">Mi Pedido</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ofertas.html">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iniciar_sesion.html">Iniciar Sesión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registro.html">Registrarse</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Mi Pedido</h1>
+        
+        <div class="row">
+            <!-- Producto seleccionado - Entrante 1 -->
+            <div class="col-md-6">
+                <div class="product2">
+                    <h3 class="mb-3">Bebida 1</h3>
+                    <img src="/img/bebida_ejemplo.jfif" class="img-fluid" alt="Entrante 1">
+                    <p>Precio: $4.99</p>
+                </div>
+                <div class="product2">
+                    <h3 class="mb-3">Entrante 1</h3>
+                    <img src="/img/comida_ejemplo.jfif" class="img-fluid" alt="Entrante 1">
+                    <p>Precio: $4.99</p>
+                </div>
+            </div>
+            
+
+            <!-- Información del Cliente -->
+            <div class="col-md-6">
+                <form>
+                    <h2 class="mb-4">Información del Cliente</h2>
+
+                    <!-- Campo Nombre -->
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+
+                    <!-- Campo Correo Electrónico -->
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+
+                    <!-- Campo Método de Pago -->
+                    <div class="form-group">
+                        <label for="metodoPago">Método de Pago:</label>
+                        <select class="form-control" id="metodoPago" name="metodoPago" required>
+                            <option value="efectivo">Efectivo</option>
+                            <option value="tarjeta">Tarjeta de Crédito/Débito</option>
+                        </select>
+                    </div>
+
+                    <!-- Botón Realizar Pedido -->
+                    <button type="submit" class="btn btn-secondary" onclick="location.href='modal_pedido.html'">Realizar Pedido</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <footer class="f_pedido">
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Paquito's Restaurant</span> by <span property="cc:attributionName">Nicolas Gomez Mulero</span> is licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1"></a></p>
+    </footer>
+</body>
+</html>
